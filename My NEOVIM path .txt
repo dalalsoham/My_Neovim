@@ -9,3 +9,4 @@ For run command :
 2. For exit the file you need to write this command "esc :wq"
 (Using the esc option you can go to the cmd line to input the shotcut or run any command using keybinding)
 3. To run the ".c" file we need to write "esc" (:!gcc -o FileName % && FileName)
+4. To save the any file you need to write (esc :x)
