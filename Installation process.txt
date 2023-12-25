@@ -1,0 +1,34 @@
+To install the neovim in windows we need to follow this steps :
+
+1. Run command prompt as a administrator.
+
+2. Then you need to install choco as a package maanager.
+
+3. Then Go to this link : https://chocolatey.org/install
+
+4. Run "Get-ExecutionPolicy". If it returns Restricted, then run "Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process".
+
+5. Then again run the "Get-ExecutionPolicy"
+
+6. The ouput will be Bypass
+
+7. Then install the neovim using this command "choco install neovim" 
+(always use run as administrator to install any thing using the chcoco package manager)
+
+After that neovim wil be downloaded in your system.
+To check whether it is installed or not, just type "nvim" in the command promt. If nvim has been successfully installed then that open a text editor.
+And we need to check the version of the neovim. To check the version we need to run the "neovim --version" command.
+
+
+================================================================================================================================
+
+Now you need to navigate the neovim file location where the neovim is installed.
+
+Follow the instructions to find that thing :
+
+1. "Windows key + R" then type the "%appdata%" command.
+
+2. Then go to the "AppData" folder and go to the "Local" folder and inside that find the "nvim" folder inside that that there will be some "lua" files avoid it and delete them.
+
+3. After deleting the all lua files and all other stuff create a "init.vim" file and then setup the fresh neovim editor .
+(If you don't have any nvim folder inside the AppData and the local file then you need to create it manually and create the "init.vim" file')

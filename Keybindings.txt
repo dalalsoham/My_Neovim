@@ -1,0 +1,99 @@
+Some basic Keybindings :
+========================
+
+-> i for INSERT MODE
+-> :w for WRITE CHANGES
+-> :wq for the WRITE & QUIT
+-> :q! for QUIT OVERRIDE (if you change the file but not to save with this changes then write this command)
+-> :x for save any file
+=========================
+
+1. Navigation using keybindings :
+------------------------
+(This all are use in the normal mode not use it in the insert mode if you indise the insert mode then leave that mode using the Esc key)
+
+--> Alternative: 
+    -----------
+                 h(for left arrow key)
+                 l(for right arrow key)
+                 j(for up arrow key)
+                 k(for down arrow key)
+                 I(for Before line)
+                 A(for After  line)
+                 o(for New line Below)
+                 O(for New line Above)
+                 w(for jump to next word)
+                 b(for jump to previous word)
+                 W(Next word)
+                 B(previous word)
+                 r(for replace letter)
+                 R(for replace mode) [In this mode you can replace a whole word without deleting the word]
+                 cw(for change word and also use this as a del a whole word)
+                 8w(jump eight words) [if you want to jump only 3 or the 6 words you use 3w and 6w]
+                 c7w(change seven words)
+                 4j(Move four lines down)
+                 4k(Move four lines up)
+                 C(for delete rest of line)
+                 dw(for delete word)
+                 D(for delete rest of line)
+                 d4w(delete four word)
+                 4dd (delete four lines)
+                 8cc(change eight lines)
+
+--> Undo :
+    ------
+                 u(Undo)
+                 ctrl+R(redo)
+                 5u(undo last five changes)
+                 7 ctrl+R (redo seven last things)
+                 ciw(change inner word)
+                 diw(delete inner word)
+                 ci) -> change inner parentheses
+                 ci( -> change inner parentheses
+                 ci[ -> change inner brackets
+                 ci] -> change inner brackets
+                 ci} -> change inner brackets
+                 ci{ -> change inner brackets
+                 $(end of line)
+                 0(beginning of line)
+
+--> Paste and copy :
+    ----------------
+
+                 v(for visual mode or select the line)
+                 after the "v", 'd' is for delete , 'c' is for change , y is for Copy , p is for paste(yanking)
+                 P(for paste before)
+                 p (paste after)
+                 yy(yank line)
+                 5yy(yank five lines)
+                 9p(paste nine times)
+                 shift + v (visual line or select the whole line)
+                 ctrl + v (visual block)
+                 zz(for center selected line)
+                 > (shift right)
+                 <(shift left)
+                 =(indent)
+                 >> & << (shift line)
+                 == (indent line)
+                 gg=G (indent whole file)
+                 ggdG(delete whole file)
+
+--> Search and replace:
+    -------------------
+                 /word (Search for word that i want to search)
+                 n(next occurrence)
+                 N(previous occurrence)
+                 #(for previous token occurrence)
+                 +(for next tokn occurrence)
+                :s/old/new/g (Replace) [in this case after :s/(here you write the old word that you want to change)/(here you add the new change word/g)]
+                %s/old/new/g(Raplace everywhere)
+
+--> Some customization:
+    -------------------
+                :set number (line numbers)
+                :set relativenumber (relative line numbers)
+                :colorscheme scheme (select themes)
+                :set tabstop=4 (tab width to four)
+                :set autoindent (auto intentation)
+                :set mouse=a (activate mouse)
+                : set mouse="" (deactivate mouse)
