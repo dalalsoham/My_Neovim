@@ -1,0 +1,6 @@
+If you want to paste anything in the vim editor you need to set the paste mode .
+
+Process:
+========
+1. Press the "esc" then write ":set paste" and "enter"
+2. After that, press the "shift + right click" to paste the whole copy thing that you are copying.

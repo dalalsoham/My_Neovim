@@ -2,6 +2,7 @@ Some basic Keybindings :
 ========================
 
 -> i for INSERT MODE
+-> :q for exist the neovim window
 -> :w for WRITE CHANGES
 -> :wq for the WRITE & QUIT
 -> :q! for QUIT OVERRIDE (if you change the file but not to save with this changes then write this command)
