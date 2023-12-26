@@ -1,5 +1,6 @@
 My NEOVIM path :
-C:\Users\SOHAM DALAL\AppData\Local\nvim
+C:\Program Files\Neovim
+C:\Users\SOHAM DALAL\.config\nvim
 
 =======================================
 
@@ -9,7 +10,7 @@ For run command and some instructions:
 
 1. To insert the neovim we need to tap the "i" for insert the text editor.
 
-2. For exit the file you need to write this command "esc :wq"
+2. For exit the file you need to write this command "esc :q"
 (Using the esc option you can leave the any mode that you are currently using.)
 
 3. For open any file use the neovim command then file name and file type (example: neovim app.c)
