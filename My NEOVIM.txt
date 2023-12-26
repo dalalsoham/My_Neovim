@@ -1,6 +1,6 @@
 My NEOVIM path :
 C:\Program Files\Neovim
-C:\Users\SOHAM DALAL\.config\nvim
+C:\Users\SOHAM DALAL\AppData\Local\nvim (main file location where we config the neovim editor).
 
 =======================================
 
