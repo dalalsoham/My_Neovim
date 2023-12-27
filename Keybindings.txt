@@ -7,6 +7,8 @@ Some basic Keybindings :
 -> :wq for the WRITE & QUIT
 -> :q! for QUIT OVERRIDE (if you change the file but not to save with this changes then write this command)
 -> :x for save any file
+-> :sp for split the window
+-> :vsp for split the vertical window
 =========================
 
 1. Navigation using keybindings :
