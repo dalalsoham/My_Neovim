@@ -1,0 +1,20 @@
+Some basic keybinding for the LazyVim :
+=======================================
+
+1. nvim command of the open the neovim in the powershell or the cmd or the wezterm.
+
+2. "nvim ." is for open the all file in the set path, that I am active on.
+
+3. "space e" for the sidenav open and hide .
+
+4. "esc :q" for quite the editor or the window.
+
+5. "esc :wq" write and save and also quite the current window.
+
+6. "esc :w" for normal save file . Also you use the ctri+s for the save.
+
+7. for file rename : "r"
+
+8. for file delete : "d"
+
+9. 
