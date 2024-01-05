@@ -1,7 +1,9 @@
 My NEOVIM path :
 C:\Program Files\Neovim
 C:\Users\SOHAM DALAL\AppData\Local\nvim (main file location where we config the neovim editor).
-
+C:\Users\SOHAM DALAL\AppData\Local\nvim.bak (Neovim config backup file path)
+C:\Users\SOHAM DALAL\AppData\Local\nvim-data (Neovim data file path)
+C:\Users\SOHAM DALAL\AppData\Local\nvim-data.bak (Neovim data backup file path)
 =======================================
 
 

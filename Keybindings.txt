@@ -12,11 +12,11 @@ Some basic Keybindings :
 =========================
 
 1. Navigation using keybindings :
-------------------------
+--------------------------------
 (This all are use in the normal mode not use it in the insert mode if you indise the insert mode then leave that mode using the Esc key)
 
---> Alternative: 
-    -----------
+--> Bsic Key Mapping: 
+    ----------------
                  h(for left arrow key)
                  l(for right arrow key)
                  j(for up arrow key)

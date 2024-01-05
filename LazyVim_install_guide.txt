@@ -1,0 +1,87 @@
+How to install LazyVim?
+
+-> If you want to install pre-build plugins with the nvim editor then you need to install lazyvim .
+
+ website link:
+ -------------
+ lazyvim.org
+
+ This is the website were you download the lazyvim .
+
+ We install lazyvim using the cmd :
+ ===================================
+
+ 1st we need some requirements thats are :
+ -----------------------------------------
+
+ i. Neovim >= 0.9.0
+ ii. Git >= 2.19.0
+ iii. For telescope.nvim we need :
+  iii.A. live grep: ripgrep(https://github.com/BurntSushi/ripgrep)
+      After visit this link we need to install the "ripgrep". So copt this command line and paste this to your terminal :
+      "winget install BurntSushi.ripgrep.MSVC" (For windows user)
+                        OR,
+      "scoop install ripgrep" (For windows user)
+                        OR,
+      "choco install ripgrep" (For windows user)
+
+    And for macOs user :
+    "brew install ripgrep"
+
+  iii.B. find files: fd (https://github.com/sharkdp/fd)
+      After visit this link we need to install the "fd". So copy this command line and paste this to your terminal :
+      "winget install sharkdp.fd" (For windows user)
+                  OR,
+      "scoop install fd" (For windows user)
+                  OR,
+      "choco install fd" (For windows user)
+
+    And for macOs user :
+    "brew install fd"
+
+ iv. In this case we need a specific terminal that suuport true color and undercurl :
+    Kitty(For Mac and linux),
+    Wezterm(for windows, linux and mac),
+    alacritty(for windows, linux and mac),
+    iterm2 (MacOs)
+
+    In this above install any one of then according to your Machine and Os
+    
+    My own suggestion is -> Wezterm (https://github.com/wez/wezterm)
+    Or go to this official website : https://wezfurlong.org/wezterm/install/windows.html (This is download link for windows user)
+
+    I prefered that install this via terminal. Don't install the any Zip file or exe file.
+
+    Follow this process to install the wezterm using the terminal :
+    ---------------------------------------------------------------
+
+    1. winget install wez.wezterm
+    2. winget upgrade wez.wezterm
+    And for scoop users:
+    1. scoop bucket add extras
+    2. scoop install wezterm
+    And for choco users:
+    1. choco install wezterm -y
+
+ v. The file thing is we need to install Nerd Font into your terminal or system. And the version will be the v3.0 or greater.
+   Follow this link and install this : https://www.nerdfonts.com
+
+
+---> Now install LazyVim with powershell :
+
+1. Make a backup of your current Neovim file :
+  -> Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+  -> Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+
+2. Clone this Repo into your system :
+  -> git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
+
+3. Remove the ".git" folder : 
+  -> Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
+
+
+
+Now you are ready for the Neovim.
+
+Start your neovim using the command "nvim".
+
