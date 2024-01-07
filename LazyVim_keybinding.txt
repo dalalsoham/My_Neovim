@@ -43,4 +43,9 @@ Now here i want to replace the "app.post" word with the "app.get" so i write the
 
 : for open a window then "%s/app.post/app.get/g"
 
-15. 
+15."space L and U" for the update the plugins and always update the plugins in the neovim this is important.
+
+16. press "double space" to open the navigation file in the same folder path.
+
+17. also go to the file explore press ": e then file location" that file you want to open.
+ 
