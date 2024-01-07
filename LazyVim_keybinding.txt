@@ -18,7 +18,7 @@ Some basic keybinding for the LazyVim :
 
 8. for file delete : "d"
 
-9.find any file "space ff" and off this window "esc esc"
+9. search any file (telescope) "space ff" and off this window "esc esc"
 
 10. to go bottom of the file "G" and "gg" for go to the top of the file
 
