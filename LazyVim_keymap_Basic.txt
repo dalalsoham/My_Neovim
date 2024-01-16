@@ -1,0 +1,39 @@
+1. Movement:
+   - `h`, `j`, `k`, `l` - Move left, down, up, and right, respectively.
+   - `w` - Move to the beginning of the next word.
+   - `b` - Move to the beginning of the previous word.
+   - `0` - Move to the beginning of the line.
+   - `$` - Move to the end of the line.
+
+2. Editing:
+   - `i` - Enter insert mode before the cursor.
+   - `I` - Enter insert mode at the beginning of the line.
+   - `a` - Enter insert mode after the cursor.
+   - `A` - Enter insert mode at the end of the line.
+   - `o` - Open a new line below the current line.
+   - `O` - Open a new line above the current line.
+
+3. Saving and Quitting:
+   - `:w` - Save the current file.
+   - `:q` - Quit the current window.
+   - `:q!` - Quit forcefully (discard changes).
+   - `:wq` or `ZZ` - Save and quit.
+
+4. Visual Mode:
+   - `v` - Enter visual mode to select characters.
+   - `V` - Enter visual line mode to select entire lines.
+   - `Ctrl + v` - Enter visual block mode to select a block of text.
+
+5. Copying and Pasting:
+   - `yy` - Yank (copy) the current line.
+   - `p` - Paste the yanked text after the cursor.
+   - `P` - Paste the yanked text before the cursor.
+
+6. Undo and Redo:
+   - `u` - Undo the last action.
+   - `Ctrl + r` - Redo the last undone action.
+
+7. Searching:
+   - `/` - Enter search mode.
+   - `n` - Move to the next search result.
+   - `N` - Move to the previous search result.
