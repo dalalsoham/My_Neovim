@@ -53,3 +53,14 @@ Now here i want to replace the "app.post" word with the "app.get" so i write the
 
 19. select full code "ggVG"
 
+20. open a new tab "leader tab tab"
+
+21. close the tab "leader tab d"
+
+22. first tab "leader tab f"
+
+23. last tab "leader tab l"
+
+24. next tab "leader tab ]"
+
+25. previous tab "leader tab ["
