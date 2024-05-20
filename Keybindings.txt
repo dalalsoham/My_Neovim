@@ -39,6 +39,7 @@ Some basic Keybindings :
                  C(for delete rest of line)
                  dw(for delete word)
                  D(for delete rest of line)
+                 dd(for delete the whole line at once)
                  d4w(delete four word)
                  4dd (delete four lines)
                  8cc(change eight lines)
@@ -100,3 +101,16 @@ Some basic Keybindings :
                 :set autoindent (auto intentation)
                 :set mouse=a (activate mouse)
                 : set mouse="" (deactivate mouse)
+
+--> Move lines (This is whole line movement):
+    ----------------------------------------
+                Move down "Alt j"
+                Move up "Alt k"
+
+---> For windows :
+    ---------------
+                Other window "leader ww"
+                delete window "leader wd"
+                split window below "leader w-"
+                split window right "leader w|"
+              

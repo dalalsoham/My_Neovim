@@ -1,3 +1,8 @@
+This is the cheetsheet of key bindings:
+https://neovim.io/doc/user/quickref.html
+
+=========================================
+
 If you want to paste anything in the vim editor you need to set the paste mode .
 
 Process:
