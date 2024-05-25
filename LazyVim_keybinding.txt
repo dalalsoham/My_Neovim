@@ -68,3 +68,13 @@ Now here i want to replace the "app.post" word with the "app.get" so i write the
 26. "gg" for go to the top of the code
 
 27. "G" for go to the bottom of the code
+
+28. "A" for create the folder and where cursor is there the folder is created.
+
+29. "a" for create the file inside any folder.
+
+30. "s" for open the window in the side by side.
+
+31. "ctrl+w h" for go to the left side file.
+
+32. "ctrl+w l" for go to the right side file.
