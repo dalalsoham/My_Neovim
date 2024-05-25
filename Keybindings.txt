@@ -113,4 +113,7 @@ Some basic Keybindings :
                 delete window "leader wd"
                 split window below "leader w-"
                 split window right "leader w|"
-              
+
+---> Back to the opened previous file :
+    -----------------------------------
+                to go previous file that is opened atleast once "ctrl 6"
